@@ -1,18 +1,15 @@
 <?php
 /*
-*   Font Controller / Chef d'orchestre
+Front Controller
 */
 
 /*
-*   Chargement des dépendances
+* Chargement des dépendances
 */
 // chargement de configuration
 require_once "../config.php";
 
-try{
-    
-}catch(Exception $e){
-    die($e->getMessage());
-}
 
+// Appel de la vue de test
 include_once "../view/test.homepage.html.php";
+/*
